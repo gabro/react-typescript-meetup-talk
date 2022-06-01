@@ -1,0 +1,20 @@
+[
+  {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "dateOfBirth": "1988-01-01",
+    "status": "active"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Doe",
+    "dateOfBirth": "1988-01-01",
+    "status": "inactive"
+  },
+  {
+    "firstName": "Glenda",
+    "lastName": "Berry",
+    "dateOfBirth": "1993-12-03",
+    "status": "active"
+  }
+]
