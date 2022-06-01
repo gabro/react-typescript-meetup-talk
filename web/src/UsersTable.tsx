@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { User } from "./domain";
 import { Table, tableColumn, IconInfo, Modal, ReadOnlyField } from "./ui";
+import { match } from "ts-pattern";
 
 type Props = {
   users: User[];
@@ -34,7 +35,11 @@ export function UsersTable({ users }: Props) {
         ...user,
         status: {
           label: user.status,
-          color: user.status === "active" ? "green" : "red",
+          color: match(user.status)
+            .with("active", () => "green")
+            .with("inactive", () => "red")
+            .with("invited", () => "yellow")
+            .exhaustive(),
         },
         info: {
           label: "Info",

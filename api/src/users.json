@@ -16,5 +16,11 @@
     "lastName": "Berry",
     "dateOfBirth": "1993-12-03",
     "status": "active"
+  },
+  {
+    "firstName": "Glenda",
+    "lastName": "Berry",
+    "dateOfBirth": "1993-12-03",
+    "status": "invited"
   }
 ]

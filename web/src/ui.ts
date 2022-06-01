@@ -11,4 +11,6 @@ export const {
   IconInfo,
   Modal,
   ReadOnlyField,
+  Banner,
+  InlineLoader,
 } = createBentoComponents(bentoSprinkles);
